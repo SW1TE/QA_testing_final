@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-19T01:17:48 MSK" name="Wikipedia Web Tests Suite" finished-at="2025-12-19T01:18:35 MSK" duration-ms="46243">
+    <groups>
+    </groups>
+    <test started-at="2025-12-19T01:17:48 MSK" name="Wikipedia Web Tests" finished-at="2025-12-19T01:18:35 MSK" duration-ms="46243">
+      <class name="com.automation.web.tests.WikipediaWebTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.web.tests.WikipediaWebTests@8f4ea7c]" started-at="2025-12-19T01:17:48 MSK" name="setUp" finished-at="2025-12-19T01:17:50 MSK" duration-ms="2052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMainPageTitle()[pri:1, instance:com.automation.web.tests.WikipediaWebTests@8f4ea7c]" started-at="2025-12-19T01:17:50 MSK" name="testMainPageTitle" description="Проверка заголовка главной страницы" finished-at="2025-12-19T01:17:50 MSK" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMainPageTitle -->
+        <test-method signature="testSearchFunctionality()[pri:2, instance:com.automation.web.tests.WikipediaWebTests@8f4ea7c]" started-at="2025-12-19T01:17:50 MSK" name="testSearchFunctionality" description="Поиск статьи и проверка заголовка результата" finished-at="2025-12-19T01:17:51 MSK" duration-ms="785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+        <test-method signature="testNavigationElements()[pri:3, instance:com.automation.web.tests.WikipediaWebTests@8f4ea7c]" started-at="2025-12-19T01:17:51 MSK" name="testNavigationElements" description="Проверка основных элементов навигации на главной странице" finished-at="2025-12-19T01:17:52 MSK" duration-ms="1095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationElements -->
+        <test-method signature="testArticleLinksFromSearch()[pri:4, instance:com.automation.web.tests.WikipediaWebTests@8f4ea7c]" started-at="2025-12-19T01:17:52 MSK" name="testArticleLinksFromSearch" description="Проверка наличия результатов поиска и перехода по первой ссылке" finished-at="2025-12-19T01:18:33 MSK" duration-ms="41017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArticleLinksFromSearch -->
+        <test-method signature="testLanguageSwitcher()[pri:5, instance:com.automation.web.tests.WikipediaWebTests@8f4ea7c]" started-at="2025-12-19T01:18:33 MSK" name="testLanguageSwitcher" description="Проверка наличия ссылки на английскую версию" finished-at="2025-12-19T01:18:34 MSK" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLanguageSwitcher -->
+        <test-method signature="testGoToMainPageLink()[pri:6, instance:com.automation.web.tests.WikipediaWebTests@8f4ea7c]" started-at="2025-12-19T01:18:34 MSK" name="testGoToMainPageLink" description="Переход на Заглавную страницу и проверка, что открыта главная" finished-at="2025-12-19T01:18:34 MSK" duration-ms="843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoToMainPageLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.web.tests.WikipediaWebTests@8f4ea7c]" started-at="2025-12-19T01:18:34 MSK" name="tearDown" finished-at="2025-12-19T01:18:35 MSK" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.web.tests.WikipediaWebTests -->
+    </test> <!-- Wikipedia Web Tests -->
+  </suite> <!-- Wikipedia Web Tests Suite -->
+</testng-results>

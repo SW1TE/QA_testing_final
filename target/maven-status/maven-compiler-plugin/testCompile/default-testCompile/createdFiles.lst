@@ -1,0 +1,11 @@
+com\automation\config\TestConfig.class
+com\automation\web\tests\WikipediaWebTests.class
+com\automation\mobile\pages\MobileSearchPage.class
+com\automation\mobile\tests\WikipediaMobileTests.class
+com\automation\web\pages\ArticlePage.class
+com\automation\mobile\pages\MobileArticlePage.class
+com\automation\web\pages\MainPage.class
+com\automation\mobile\utils\AppiumDriverSetup.class
+com\automation\web\utils\WebDriverSetup.class
+com\automation\mobile\pages\MobileMainPage.class
+com\automation\web\pages\SearchPage.class
